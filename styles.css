@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@400;600&family=Kalam:wght@700&family=Kanit&family=Kaushan+Script&family=Merriweather&family=Montserrat:wght@400;500&family=Poor+Story&family=Poppins:wght@400;700&family=Roboto&family=Sacramento&family=Sigmar&family=Ubuntu&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+   
+}
+
+.navbar{
+    background-color: #edf0f3;
+}
+
+.navbar-brand i{
+    padding-right: 3px;
+}
+
+h1{
+  
+    /* font-weight: bold; */
+    font-weight: bold;
+ 
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+
+.nav-item{
+    font-family: 'Poppins', sans-serif;
+  font-size: 23px;
+}
+
+.nav-item li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: #d12c2c;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-btn{
+    margin: 0 3px;
+}
+
+.carousel-item img{
+    object-fit: cover;
+    height: 80vh;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif
+}
+
+.accordion-header .accordion-button{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.accordion {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#services{
+    background-color: #edf0f3;
+}
+
+#services i{
+    font-size: 1.5rem;
+
+
+}
+
+#services h5{
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+#services .btn{
+
+    background-color: #d12c2c;
+}
+
+#team .card-body img{
+    min-width: 70%;
+    max-height: 320px
+}
+
+#contact{
+
+    background-color: #edf0f3;
+    
+}
+
+#contact .row{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-right{
+    text-align: right;
+}
+
+.social-media {
+ padding: 0 5px;
+}
+
+#footer{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+@media (max-width: 576px){
+
+    hr{
+        width: 50%;
+    }
+
+    .full-width{
+        width: 50%;
+    }
+
+}
+
+
+@media (min-width: 576px) { 
+    hr{
+        width: 50%;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    hr{
+        width: 70%;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+    hr{
+        width: 25%;
+    }
+
+    .full-width{
+        width: 100%;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    hr{
+        width: 25%;
+    }
+
+    .full-width{
+        width: 100%;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    hr{
+        width: 25%;
+    }
+
+    .full-width{
+        width: 100%;
+    }
+
+   
+ }
+
+ @media (max-width:780px){
+    #about img{
+        margin-top: 2.5rem;
+    }
+
+    #team .card{
+        margin: 0 0 2rem 0;
+    }
+
+    #contact img{
+        margin-top: 2.5rem;
+    }
+
+    #contact .btn{
+        display: inline-block;
+        width: 25%;
+    }
+
+    #contact {
+        .g-3, .gy-3 {
+            --bs-gutter-y: 1.5rem;
+        }
+    }
+ }
+
+ @media (max-width : 650px){
+    h1{
+        font-size: 2.5rem;
+    }
+ }
+
+ @media (max-width : 500px){
+    .navbar-brand{
+        font-size: 37px;
+    }
+ }
